@@ -1,0 +1,90 @@
+.each-prod{
+    height: 48vh;
+    width:33.3%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    justify-content: center;
+    
+}
+
+.gotocart{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+    float: right;
+}
+.availableprod{
+    color: white;
+    font-size: 24px;
+    margin: auto;
+    margin-left: 40px;
+}
+.forgotocartbtn{
+    height: 50%;
+    width: 14%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: auto;
+    margin-top: 2vh;
+    margin-right: 6.5vw;
+}
+
+.prod{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid lightblue;
+}
+
+
+.prod-img{
+    height:35vh;
+    width: 20vw;
+}
+
+.left-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.second-child{
+    background-color:lightgray;
+    border-radius: 8px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.right-child{
+    vertical-align: middle;
+}
+
+.prod-name{
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+.prod-price{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 24px;
+    color:orangered;
+    align-self: flex-start;
+}
+
+.add-btn{
+    background-color:ivory;
+    vertical-align: middle;
+    border-radius: 8px;
+    height: 10vh;
+    width: 8vw;
+    font-size: 20px;
+    font-family: Roboto,Arial,sans-serif;
+}

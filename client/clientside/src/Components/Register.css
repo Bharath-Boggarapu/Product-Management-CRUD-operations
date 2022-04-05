@@ -1,0 +1,84 @@
+.main-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-page{
+    font-size: 50px;
+    height: 22vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left-half-reg{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightseagreen;
+}
+
+.right-half-reg{
+    border: 1px solid lightseagreen;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eachinpfield{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-btn{
+    color: brown;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.eachlabel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.fname{
+    font-size: 24px;
+}
+
+.iflogin,.loggin{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(167, 39, 39)
+}
+
+.log-btn{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(167, 39, 39)
+}
+
+.regfooter-page{
+    font-size: 50px;
+    height: 17.5vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

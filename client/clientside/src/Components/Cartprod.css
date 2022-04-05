@@ -1,0 +1,75 @@
+.parentofall{
+    display: flex;
+    flex-direction: column;
+    background-color: limegreen;
+}
+
+.child-parent{
+    background-color: lightblue;
+    width: 90%;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+    border: 0.5px solid lightblue;
+}
+
+.imageprod{
+    height:20vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onechild,.twochild,.threechild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.twochild{
+    font-size: 28px;
+}
+
+
+.removeitem-btn{
+    height:30%;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+.alertheader{
+    color: red;
+    font-size: 24px;
+    font-weight:600;
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+
+.proceed-btn{
+    width: 50%;
+    font-size: 28px;
+    background-color: blue;
+    color: white;
+}
+
+.suretocancel{
+    font-size: 20px;
+}
+
+.for-addingaddress{
+    width:16%;
+    font-size: 28px;
+    margin-left: 79vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: blue;
+}
+

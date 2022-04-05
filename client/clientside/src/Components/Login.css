@@ -1,0 +1,77 @@
+.login-comp{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: Garamond, serif;
+    align-items: center;
+    background-color: cadetblue;
+    font-size: 70px;
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid black;
+    
+}
+
+.second-part{
+    display: flex;
+}
+
+.reg-part{
+    height: 50vh;
+    width:40vw;
+    background-color:#2874f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newuser{
+    display: flex;
+    height: 49%;
+    font-size: 28px;
+    color: white;
+}
+
+.forreg{
+    margin-top: 20px;
+    
+}
+
+
+.login-part{
+
+    width: 60vw;
+    background-color:#2874f0;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.login-one,.login-two,.login-three {
+    height: 32%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.foremail,.foremailinp,.forpassword,.forpass,.forsignin-btn{
+    font-size: 24px;
+    font-family: Garamond, serif;
+}
+
+.forsignin-btn{
+    color:#2874f0;
+    background-color: white;
+    height: 8vh;
+    width: 20vw;
+}

@@ -1,0 +1,68 @@
+.parent{
+    width:100vw;
+}
+.header{
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    height:10%;
+    background: #8c8787 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+}
+.navbar,.nav-bar{
+    display:inline-block;
+}
+.navbar{
+    display:flex;
+    width:40%;
+    float:right;
+    justify-content: space-around;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color:#45bdc1;
+}
+.navbar button{
+    border-radius: 5%;
+    background: #45bdc1 0% 0% no-repeat padding-box;
+    color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    top: 0px;
+    width: 113px;
+    height: 80px;
+}
+.logout{
+    border-radius: 5%;
+    background:#45bdc1 0% 0% no-repeat padding-box;
+    color: white;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    top: 0px;
+    width: 113px;
+    height: 10.5vh;
+}
+.nav-bar{
+    top: 30px;
+    width:8%;
+    height: 5%;
+    margin-left:7%;
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 1.8px;
+    color: #45bdc1;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+.navbar a{
+    padding-top: 3%;
+    padding-left: 4%;
+    border-left: 1px solid rgb(206, 202, 202);
+}
